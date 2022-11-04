@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi primer página web</title>
+    <link rel="stylesheet" href="index.css"> 
     <style>
         #titulo{
-            background-color: aquamarine;
-            color: darkorchid;
+            background-color: darkorchid;
+            color: aquamarine;
         }
         .conborde{
             border-color:rgb(62, 16, 105);
@@ -30,23 +31,25 @@
             </ul>
         </nav>
     </header>
-    <div class="container">
-         <aside>
+    <div id="container" class="container">
+        <section class="principal">
+            <h1 id="titulo" class="conborde"> 
+                Mi pagina web
+            </h1>
+            <p class="parrafo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto aspernatur illum, cumque odio dolores maxime fugit rem voluptatem blanditiis ducimus voluptas ipsa culpa beatae tenetur ea temporibus unde alias est!</p>
+            <!-- <img id="imagen1" class="conborde" src="./Images/Wallpaper.jpg" alt=""> -->
+            <button>Entrar</button>
+            <input></input>
+         </section>
+         <aside class="lateral">
             <ol>
                 <li>item 1</li>
                 <li>item 2</li>
                 <li>item 3</li>
             </ol>
          </aside>
-         <section>
-            <h1 id="titulo" class="conborde"> 
-                Mi pagina web
-            </h1>
-            <img id="imagen1" class="conborde" src="./Images/Wallpaper.jpg" alt="">
-            <img id="imagen2" style="margin-left:50px;" src="./Images/Wallpaper.jpg" alt="">
-         </section>
     </div>
-    <footer>
+    <footer class="pie_pagina">
         <p>Copyright de mi pagina @2022</p>
     </footer>
 </body>

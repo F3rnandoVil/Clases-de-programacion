@@ -1,0 +1,60 @@
+html, body{
+    display:flex;
+    height: 100%;
+    flex-direction: column;
+    margin: 0px;
+
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: White;
+    background-color: rgb(92, 20, 129) ;
+    height: 20%;
+    padding-right: 40px;
+}
+#container{
+    display: flex;
+    background-color: antiquewhite;
+    color: black;
+    height: 60%;
+}
+.pie_pagina{
+    background-color: purple;
+    color: azure;
+    display: flex;
+    height: 20%;
+}
+.lateral{
+    display:flex;
+    justify-content: right;
+    align-items: center;
+    width: 30%;
+    text-align: right;
+    background-color: blueviolet;
+    
+}
+ol li{
+    list-style: none;
+}
+ul li{
+    display: inline;
+    margin-left: 15px;
+}
+ul li:hover{
+    color:rgb(61, 241, 223);
+
+}
+.parrafo{
+    text-align: justify;
+    border: 10px solid;
+    border-color: blueviolet;
+    border-radius: 25px;
+
+    
+}
+.principal{ 
+    padding-left: 0px 30px;
+    width: 70%;
+}
