@@ -49,7 +49,7 @@ if (variable2) {
     document.write(variable2) + "<br>";
 }
 if (variable2) {
-    document.write("Mi variable es true")
+    document.write("Mi variable es true" +"<br>") 
 } else {
     document.write("Mi variable es false")
 }; 
@@ -76,3 +76,11 @@ switch (dia) {
         console.log("Es otro dia de la semana difernte al lunes o martes")
         break;
 }
+// WHILE
+var frase = "";
+var n = 1;
+	do{ 
+	frase += "El valor de n es " + n + "<br>"; 
+	n++;
+	}while (n < 10) 
+document.writeln(frase);
